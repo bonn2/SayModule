@@ -1,0 +1,13 @@
+plugins {
+    id 'java'
+}
+
+group 'com.bonn2.say'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly fileTree(dir: 'libs', include: '*.jar')
+}

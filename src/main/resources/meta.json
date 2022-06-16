@@ -1,0 +1,7 @@
+{
+  "main": "com.bonn.say.Main",
+  "name": "Say",
+  "author": "bonn2",
+  "description": "Allows you to make the bot say things",
+  "version": "1.0"
+}
