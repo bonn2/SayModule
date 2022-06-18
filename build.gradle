@@ -3,11 +3,13 @@ plugins {
 }
 
 group 'com.bonn2.say'
+version("v1.0")
 
 repositories {
     mavenCentral()
+    mavenLocal()
 }
 
 dependencies {
-    compileOnly fileTree(dir: 'libs', include: '*.jar')
+    compileOnly('com.bonn2:modular-bot:1.0.0-alpha.1')
 }
