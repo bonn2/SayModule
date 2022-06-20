@@ -1,4 +1,4 @@
-package com.bonn.say;
+package net.bonn2.say;
 
 import net.dv8tion.jda.api.entities.TextChannel;
 import net.dv8tion.jda.api.events.interaction.command.SlashCommandInteractionEvent;

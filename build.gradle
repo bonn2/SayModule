@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group 'com.bonn2.say'
+group 'net.bonn2.say'
 version("v1.0")
 
 repositories {
@@ -11,5 +11,5 @@ repositories {
 }
 
 dependencies {
-    compileOnly('com.bonn2:modular-bot:1.0.0-alpha.1')
+    compileOnly('net.bonn2:modular-bot:1.0.0-alpha.1')
 }
