@@ -2,6 +2,7 @@ package net.bonn2.say;
 
 import net.bonn2.Bot;
 import net.bonn2.modules.Module;
+import net.dv8tion.jda.api.interactions.commands.DefaultMemberPermissions;
 import net.dv8tion.jda.api.interactions.commands.OptionType;
 import net.dv8tion.jda.api.interactions.commands.build.CommandData;
 import net.dv8tion.jda.api.interactions.commands.build.Commands;
@@ -44,7 +45,7 @@ public class Main extends Module {
                                 "embed",
                                 "Make the bot send an embed"
                         )
-                ).setDefaultEnabled(false)
+                ).setDefaultPermissions(DefaultMemberPermissions.DISABLED)
         };
     }
 }
