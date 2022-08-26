@@ -11,6 +11,9 @@ import net.dv8tion.jda.api.interactions.commands.build.SubcommandData;
 public class Main extends Module {
 
     @Override
+    public void registerLoggingChannels() {}
+
+    @Override
     public void registerSettings() {
 
     }
