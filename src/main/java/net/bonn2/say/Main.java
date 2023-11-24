@@ -47,6 +47,15 @@ public class Main extends Module {
                         new SubcommandData(
                                 "embed",
                                 "Make the bot send an embed"
+                        ),
+                        new SubcommandData(
+                                "image",
+                                "Make the bot send an image."
+                        ).addOption(
+                                OptionType.STRING,
+                                "link",
+                                "Direct link to the file",
+                                true
                         )
                 ).setDefaultPermissions(DefaultMemberPermissions.DISABLED)
         };
